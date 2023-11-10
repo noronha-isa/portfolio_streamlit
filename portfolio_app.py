@@ -9,7 +9,7 @@ def main():
     st.title('Hey there!  :wave:')
     st.subheader('Welcome to my Porfolio / CV')
     welcome = '''
-                > This page was created using a Streamlit application in Python. I'll be gradually adding projects I develop here.              
+                > This page was created using a Streamlit application in Python. I'll be gradually adding projects I've been developing here.              
                 '''
     st.markdown(welcome)
     st.markdown('---')
