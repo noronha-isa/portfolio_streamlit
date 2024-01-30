@@ -35,13 +35,14 @@ def main():
                         | Microsoft Office | ''')
   
 # Tabs
-    tab1, tab2 = st.tabs(['#### :books: CV', 'Maps'])
+    tab1, tab2 = st.tabs(['#### :page_with_curl: CV', '#### :globe_with_meridians: Portfolio'])
     with tab1:
 
         st.write('### About')
         about = '''I'm Isa, an environmental engineer currently delving into the world of data science, with a rich interdisciplinary background.  
         I am passionate about addressing socio-environmental problems, and I strongly believe that an effective approach to these issues require a
-        broad range of knowledges and skills. I have strong skills and experience in geoprocessing and Geografic Information Systems (GIS). 
+        broad range of knowledges and skills. 
+        I have strong skills and experience in geoprocessing and Geografic Information Systems (GIS). 
         I am also a PhD researcher in Environment and Society at Unicamp. My journey has given me the hability comprehend the complex links between environmental problems 
         and social-political systems, and I am commited to apply this expertise to promote sustainable solutions.
         '''
@@ -202,8 +203,8 @@ def main():
 
  # MAPS
     with tab2:
-        st.write("#### :globe_with_meridians: Some maps I've made :) ")
-        st.write("Maps I've created using QGIS for practice purposes.")
+        st.write("#### Here are some maps I've made :) ")
+       # st.write("Maps I've created using QGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
         mapa1 = Image.open('./mapa1.jpeg')
         mapa2 = Image.open('./mapa2.jpeg')
