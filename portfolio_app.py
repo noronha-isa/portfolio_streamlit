@@ -6,7 +6,7 @@ def main():
                         page_icon=':page_with_curl:',
                         initial_sidebar_state='expanded')
 
-    st.title('Hey there!  :wave:')
+    st.title('Hey there!  :wave: :wave:')
     st.subheader('Welcome to my CV / Portfolio')
     welcome = '''
                 > This page was created using a Streamlit application in Python. I'll be gradually adding projects I've been developing here.              
