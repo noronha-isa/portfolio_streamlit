@@ -203,17 +203,17 @@ def main():
  # MAPS
     with tab2:
         st.write("#### :globe_with_meridians: Some maps I've made :) ")
-        with st.expander("Maps I've created using QGIS for practice purposes."):
+        st.write("Maps I've created using QGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
-            mapa1 = Image.open('./mapa1.jpeg')
-            mapa2 = Image.open('./mapa2.jpeg')
-            mapa3 = Image.open('./mapa3.jpg')
-            mapa4 = Image.open('./mapa4.jpg')
-        
-            st.image(mapa1)
-            st.image(mapa2)
-            st.image(mapa3)
-            st.image(mapa4)
+        mapa1 = Image.open('./mapa1.jpeg')
+        mapa2 = Image.open('./mapa2.jpeg')
+        mapa3 = Image.open('./mapa3.jpg')
+        mapa4 = Image.open('./mapa4.jpg')
+    
+        st.image(mapa1)
+        st.image(mapa2)
+        st.image(mapa3)
+        st.image(mapa4)
 
 if __name__=='__main__':
     main()
