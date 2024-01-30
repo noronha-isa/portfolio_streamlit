@@ -7,7 +7,7 @@ def main():
                         initial_sidebar_state='expanded')
 
     st.title('Hey there!  :wave:')
-    st.subheader('Welcome to my Porfolio / CV')
+    st.subheader('Welcome to my Portfolio / CV')
     welcome = '''
                 > This page was created using a Streamlit application in Python. I'll be gradually adding projects I've been developing here.              
                 '''
