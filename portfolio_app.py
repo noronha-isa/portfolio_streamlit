@@ -6,7 +6,7 @@ def main():
                         page_icon=':page_with_curl:',
                         initial_sidebar_state='expanded')
 
-    st.title('Hey there!  :wave: :wave:')
+    st.title('Hey there!  :wave:')
     st.subheader('Welcome to my CV / Portfolio')
     welcome = '''
                 > This page was created using a Streamlit application in Python. I'll be gradually adding projects I've been developing here.              
@@ -34,8 +34,8 @@ def main():
                         | Python
                         | Microsoft Office | ''')
   
-
-    tab1, tab2 = st.tabs(["CV", "Maps"])
+# Tabs
+    tab1, tab2 = st.tabs(['#### :books: CV', 'Maps'])
     with tab1:
 
         st.write('### About')
