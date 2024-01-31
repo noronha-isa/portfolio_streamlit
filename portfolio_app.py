@@ -201,7 +201,7 @@ def main():
                 st.image(caderno2, width=400)
 
 
- # MAPS
+ # Portfolio / MAPS 
     with tab2:
         st.write("#### Here are some maps I've made :) ")
         st.markdown("1. Hipsometric maps: ")
@@ -212,9 +212,14 @@ def main():
         mapa2 = Image.open('./mapa2.jpeg')
         mapa3 = Image.open('./mapa3.jpg')
         mapa4 = Image.open('./mapa4.jpg')
-    
+        
+        st.markdown("1. Hipsometric maps: ")
+        container = st.container(border=True)
+        container.write("Two hipsometric maps")
         st.image(mapa1)
         st.image(mapa2)
+
+        container.write("Two location maps")
         st.image(mapa3)
         st.image(mapa4)
 
