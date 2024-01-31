@@ -35,7 +35,7 @@ def main():
                         | Microsoft Office | ''')
   
 # Tabs
-    tab1, tab2 = st.tabs(['#### :page_with_curl: CV', '#### :globe_with_meridians: Portfolio'])
+    tab1, tab2 = st.tabs(['##### :page_with_curl: CV', '##### :globe_with_meridians: Portfolio'])
     with tab1:
 
         st.write('### About')
@@ -204,6 +204,8 @@ def main():
  # MAPS
     with tab2:
         st.write("#### Here are some maps I've made :) ")
+        st.markdown("1. Hipsometric maps: ")
+
        # st.write("Maps I've created using QGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
         mapa1 = Image.open('./mapa1.jpeg')
