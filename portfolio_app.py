@@ -213,13 +213,13 @@ def main():
         mapa4 = Image.open('./mapa4.jpg')
         
         st.markdown("1. Hipsometric maps: ")
-        container = st.container(border=True)
-        container.write("Two hipsometric maps")
+        #container = st.container(border=True)
+        #container.write("Two hipsometric maps")
         st.image(mapa1)
         st.image(mapa2)
         
-        container2 = st.container(border=True)
-        container2.write("Two location maps")
+        #container2 = st.container(border=True)
+        #container2.write("Two location maps")
         st.image(mapa3)
         st.image(mapa4)
 
