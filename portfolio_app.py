@@ -204,7 +204,6 @@ def main():
  # Portfolio / MAPS 
     with tab2:
         st.write("#### Here are some maps I've made :) ")
-        st.markdown("1. Hipsometric maps: ")
 
        # st.write("Maps I've created using QGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
@@ -218,8 +217,9 @@ def main():
         container.write("Two hipsometric maps")
         st.image(mapa1)
         st.image(mapa2)
-
-        container.write("Two location maps")
+        
+        container2 = st.container(border=True)
+        container2.write("Two location maps")
         st.image(mapa3)
         st.image(mapa4)
 
