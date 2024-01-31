@@ -218,6 +218,9 @@ def main():
         st.image(mapa1)
         st.image(mapa2)
         
+        st.markdown('---')
+
+        st.markdown("2. Location maps: ")
         #container2 = st.container(border=True)
         #container2.write("Two location maps")
         st.image(mapa3)
