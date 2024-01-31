@@ -216,7 +216,7 @@ def main():
         #container = st.container(border=True)
         #container.write("Two hipsometric maps")
         st.image(mapa1)
-        st.image(mapa2)
+        st.image(mapa4)
         
         st.markdown('---')
 
@@ -224,7 +224,7 @@ def main():
         #container2 = st.container(border=True)
         #container2.write("Two location maps")
         st.image(mapa3)
-        st.image(mapa4)
+        st.image(mapa2)
 
 if __name__=='__main__':
     main()
