@@ -211,6 +211,7 @@ def main():
         mapa2 = Image.open('./mapa2.jpeg')
         mapa3 = Image.open('./mapa3.jpg')
         mapa4 = Image.open('./mapa4.jpg')
+        mapa5 = Image.open('./mapa5.jpg')
         
         st.markdown("1. Hipsometric maps: ")
         #container = st.container(border=True)
@@ -223,6 +224,7 @@ def main():
         st.markdown("2. Location maps: ")
         #container2 = st.container(border=True)
         #container2.write("Two location maps")
+        st.image(mapa5)
         st.image(mapa3)
         st.image(mapa2)
 
