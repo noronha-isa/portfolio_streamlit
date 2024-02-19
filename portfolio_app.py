@@ -201,32 +201,41 @@ def main():
                 st.image(caderno2, width=400)
 
 
- # Portfolio / MAPS 
+ ####  Portfolio / MAPS 
     with tab2:
         st.write("#### Here are some maps I've made :) ")
 
-       # st.write("Maps I've created using QGIS for practice purposes.")
+       # st.write("Maps I've created using QGIS or ArcGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
         mapa1 = Image.open('./mapa1.jpeg')
         mapa2 = Image.open('./mapa2.jpeg')
         mapa3 = Image.open('./mapa3.jpg')
         mapa4 = Image.open('./mapa4.jpg')
         mapa5 = Image.open('./mapa5.jpg')
+        mapa6 = Image.open('./mapa6.jpg')
+        mapa7 = Image.open('./mapa7.jpg')
+        mapa8 = Image.open('./mapa8.jpg')
+        mapa9 = Image.open('./mapa9.jpg')
         
-        st.markdown("1. Hipsometric maps: ")
+        st.markdown("1. Location maps: ")
         #container = st.container(border=True)
         #container.write("Two hipsometric maps")
         st.image(mapa1)
+        st.image(mapa2)
+        st.image(mapa3)
         st.image(mapa4)
+        st.image(mapa5)
+        st.image(mapa6)
+        st.image(mapa7)
         
         st.markdown('---')
 
-        st.markdown("2. Location maps: ")
+        st.markdown("2. Other maps: ")
         #container2 = st.container(border=True)
         #container2.write("Two location maps")
-        st.image(mapa5)
-        st.image(mapa3)
-        st.image(mapa2)
+        st.image(mapa8)
+        st.image(mapa9)
+     
 
 if __name__=='__main__':
     main()
