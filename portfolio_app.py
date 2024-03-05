@@ -223,25 +223,25 @@ def main():
         mapa14 = Image.open('./mapa14.jpg')
         mapa15 = Image.open('./mapa15.jpeg')
         
-        st.markdown("####1. Location maps: ")
+        st.markdown("#### 1. Location maps: ")
         #container = st.container(border=True)
         #container.write("Two hipsometric maps")
         st.image(mapa1)
         st.image(mapa2)
         st.image(mapa3)
 
-        st.markdown("####2. Thematic maps: ")
+        st.markdown("#### 2. Thematic maps: ")
         st.image(mapa4)
         st.image(mapa5)
         #st.image(mapa6)
 
-        st.markdown("####3. Anlytical maps: ")
+        st.markdown("#### 3. Analytical maps: ")
         st.image(mapa7)
         st.image(mapa8)
         #st.image(mapa9)
         #st.image(mapa10)
 
-        st.markdown("####4. Artistic maps: ")
+        st.markdown("#### 4. Artistic maps: ")
         st.image(mapa11)
         st.image(mapa12)
         
