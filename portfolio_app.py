@@ -34,12 +34,8 @@ def main():
                         | Python
                         | Microsoft Office | ''')
   
-# Tabs
-    tab1, tab2 = st.tabs(['##### :page_with_curl: CV', '##### :globe_with_meridians: Portfolio'])
-    with tab1:
-
-        st.write('### About')
-        about = '''I'm Isa, an environmental engineer currently delving into the world of data science, with a rich interdisciplinary background.  
+    st.write('### About')
+    about = '''I'm Isa, an environmental engineer currently delving into the world of data science, with a rich interdisciplinary background.  
         I am passionate about addressing socio-environmental problems, and I strongly believe that an effective approach to these issues require a
         broad range of knowledges and skills. 
         I have strong skills and experience in geoprocessing and Geografic Information Systems (GIS). 
@@ -47,8 +43,12 @@ def main():
         and social-political systems, and I am commited to apply this expertise to promote sustainable solutions.
         '''
 
-        st.markdown(about)
-        st.markdown('---')
+    st.markdown(about)
+    st.markdown('---')
+
+# Tabs
+    tab1, tab2 = st.tabs(['##### :globe_with_meridians: Maps', '##### :page_with_curl: CV'])
+    with tab2:
 
         # LEARNING
         st.write('#### :books: Currently learning')
@@ -202,8 +202,8 @@ def main():
 
 
  ####  Portfolio / MAPS 
-    with tab2:
-        st.write("#### Here are some maps I've made :) ")
+    with tab1:
+        st.write("### Here are some maps I've made :) ")
 
        # st.write("Maps I've created using QGIS or ArcGIS for practice purposes.")
     # tab1, tab2, tab3, tab4 = st.tabs(["Map 1", "Map 2", "Map 3", "Map 4"])
@@ -212,29 +212,46 @@ def main():
         mapa3 = Image.open('./mapa3.jpg')
         mapa4 = Image.open('./mapa4.jpg')
         mapa5 = Image.open('./mapa5.jpeg')
-        mapa6 = Image.open('./mapa6.jpg')
+        #mapa6 = Image.open('./mapa6.jpg')
         mapa7 = Image.open('./mapa7.jpeg')
-        mapa8 = Image.open('./mapa8.jpg')
-        mapa9 = Image.open('./mapa9.jpeg')
+        mapa8 = Image.open('./mapa8.jpeg')
+        #mapa9 = Image.open('./mapa9.jpeg')
+        #mapa10 = Image.open('./mapa10.jpeg')
+        mapa11 = Image.open('./mapa11.jpg')
+        mapa12 = Image.open('./mapa12.jpg')
+        #mapa13 = Image.open('./mapa13.jpeg')
+        mapa14 = Image.open('./mapa14.jpg')
+        mapa15 = Image.open('./mapa15.jpeg')
         
-        st.markdown("1. Location maps: ")
+        st.markdown("####1. Location maps: ")
         #container = st.container(border=True)
         #container.write("Two hipsometric maps")
         st.image(mapa1)
         st.image(mapa2)
         st.image(mapa3)
+
+        st.markdown("####2. Thematic maps: ")
         st.image(mapa4)
         st.image(mapa5)
-        st.image(mapa6)
+        #st.image(mapa6)
+
+        st.markdown("####3. Anlytical maps: ")
         st.image(mapa7)
+        st.image(mapa8)
+        #st.image(mapa9)
+        #st.image(mapa10)
+
+        st.markdown("####4. Artistic maps: ")
+        st.image(mapa11)
+        st.image(mapa12)
         
         st.markdown('---')
 
-        st.markdown("2. Other maps: ")
+        st.markdown("#### 5. Other maps: ")
         #container2 = st.container(border=True)
         #container2.write("Two location maps")
-        st.image(mapa8)
-        st.image(mapa9)
+        st.image(mapa14)
+        st.image(mapa15)
      
 
 if __name__=='__main__':
